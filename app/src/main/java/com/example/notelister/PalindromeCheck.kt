@@ -48,7 +48,7 @@ fun PalindromeChecker(){
                          if(isPalindrome(word.value)){
                             Toast.makeText(context , "${word.value} is a palindrome" , Toast.LENGTH_LONG).show()
                          }else{
-                            Toast.makeText(context , "${word.value} is not a palindrome" , Toast.LENGTH_LONG).show()
+                            Toast.makeText(context , "${word.value} is not a palindromee" , Toast.LENGTH_LONG).show()
                          }
         } , modifier = Modifier.padding(top = 16.dp , bottom = 16.dp)){
             Text(text = "Check")
